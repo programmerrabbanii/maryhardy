@@ -1,0 +1,37 @@
+.header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #FFF8F3;
+
+}
+.mary-menu{
+    list-style: none;
+    text-decoration: none;
+    display: flex;
+    align-items: center;
+
+}
+.mary-menu a{
+    text-decoration: none;
+    text-transform: uppercase;
+    margin: 3px;
+    color: gray;
+}
+.mary-title{
+    font-size: 36px;
+    text-transform: capitalize;
+
+}
+.mary-button{
+    margin: 6px;
+    background-color: orange;
+    color: white;
+    border: none;
+    padding: 12px 29px 12px 29px;
+
+
+}
+.maryex{
+    color: orange;
+}
