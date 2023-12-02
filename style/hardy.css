@@ -1,8 +1,25 @@
+*{
+    padding: 0;
+    margin: 0;
+}
 .header{
     display: flex;
     justify-content: space-between;
     align-items: center;
     background-color: #FFF8F3;
+    
+}
+.main-header{
+    background-color: #FFF8F3;
+    
+    align-items: center;
+    background-image: url(../images/header_bg.png);
+    background-repeat: no-repeat;
+    background-position: bottom right;
+    background-size: 600px;
+    padding: 20px 20px 0px 200px;
+
+    
 
 }
 .mary-menu{
@@ -34,4 +51,74 @@
 }
 .maryex{
     color: orange;
+}
+.bannar{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    
+    
+
+}
+.bannar-text{
+    max-width: 555px;
+    width: auto;
+}
+.bannar-img{
+    width: 400px;
+}
+.bannar-text h3{}
+.bannar-text h1{
+    font-size: 66px;
+    line-height: 70px;
+
+}
+.bannar-text p{
+    font-size: 18px;
+    line-height: 30px;
+}
+.bannar-text button{
+    margin: 6px;
+    background-color: orange;
+    color: white;
+    border: none;
+    padding: 12px 29px 12px 29px;
+}
+/* bannar section end */
+/* about section start */
+.main-about{
+    background: #FFF8F3;
+    margin-top: 70px;
+    text-align: center;
+    padding: 30px;
+    max-width: 700px;
+    margin: auto;
+    text-align: center;
+    margin-top: 80px;
+    
+
+}
+.about{
+    padding-bottom: 20px;
+    text-transform: capitalize;
+    padding: 70px;
+}
+.about-details{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+}
+.about-details h4{
+    font-size: 15px;
+    margin-left: 16px;
+}
+.about-details h5{
+    font-size: 14px;
+    text-transform: capitalize;
+    line-height: 22px;
+}
+.about h2{
+    line-height: 55px;
+    font-size: 33px;
 }
